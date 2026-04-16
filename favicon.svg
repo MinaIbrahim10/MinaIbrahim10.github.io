@@ -1,0 +1,17 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="14" fill="#111111"/>
+  <!-- Building2 lucide icon scaled to ~40x40 centered at (12,10) -->
+  <g transform="translate(8,8) scale(2)" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Main tall building -->
+    <path d="M7 23V5a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v18Z" fill="none"/>
+    <!-- Left low wing -->
+    <path d="M7 13H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2" fill="none"/>
+    <!-- Right low wing -->
+    <path d="M17 10h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2" fill="none"/>
+    <!-- Windows -->
+    <path d="M11 7h2"/>
+    <path d="M11 11h2"/>
+    <path d="M11 15h2"/>
+    <path d="M11 19h2"/>
+  </g>
+</svg>
