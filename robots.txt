@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hotel1000.me/sitemap.xml
