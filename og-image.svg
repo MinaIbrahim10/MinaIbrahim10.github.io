@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#111111"/>
+  <rect x="40" y="40" width="1120" height="550" rx="24" fill="#1a1a1a"/>
+  <g transform="translate(516,160) scale(4.5)" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <rect x="4" y="2" width="16" height="20" rx="2"/>
+    <path d="M9 22v-4h6v4"/>
+    <circle cx="9" cy="7" r="0.5" fill="#fff"/><circle cx="12" cy="7" r="0.5" fill="#fff"/><circle cx="15" cy="7" r="0.5" fill="#fff"/>
+    <circle cx="9" cy="11" r="0.5" fill="#fff"/><circle cx="12" cy="11" r="0.5" fill="#fff"/><circle cx="15" cy="11" r="0.5" fill="#fff"/>
+    <circle cx="9" cy="15" r="0.5" fill="#fff"/><circle cx="12" cy="15" r="0.5" fill="#fff"/><circle cx="15" cy="15" r="0.5" fill="#fff"/>
+  </g>
+  <text x="600" y="430" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="#ffffff" text-anchor="middle">Hotel1000</text>
+  <text x="600" y="510" font-family="Arial, sans-serif" font-size="34" fill="#aaaaaa" text-anchor="middle">&#x646;&#x638;&#x627;&#x645; &#x625;&#x62F;&#x627;&#x631;&#x629; &#x627;&#x644;&#x641;&#x646;&#x627;&#x62F;&#x642; &#x627;&#x644;&#x627;&#x62D;&#x62A;&#x631;&#x627;&#x641;&#x64A;</text>
+</svg>
