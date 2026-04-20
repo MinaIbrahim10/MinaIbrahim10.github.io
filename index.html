@@ -27,6 +27,12 @@
     <meta name="description" content="Hotel1000 — نظام إدارة الفنادق الاحترافي. إدارة الحجوزات، الغرف، تسجيل الدخول والخروج، والتقارير في مكان واحد." />
     <meta name="robots" content="index, follow" />
     <meta name="theme-color" content="#111111" />
+    <!-- Font preconnect: establish TCP+TLS to Google Fonts CDNs early,
+         before the browser discovers them in CSS. Cuts ~300-400ms off first load. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Load fonts as a <link> (non-blocking) instead of CSS @import (blocking). -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" />
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://hotel1000.me/" />
@@ -42,27 +48,10 @@
     <meta name="twitter:title" content="Hotel1000 — نظام إدارة الفنادق" />
     <meta name="twitter:description" content="نظام إدارة الفنادق الاحترافي — حجوزات، غرف، تسجيل دخول وخروج، تقارير مالية." />
     <meta name="twitter:image" content="https://hotel1000.me/og-image.svg" />
-    <script type="module" crossorigin src="/assets/index-Cl6KdSCV.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DkzG5AWT.css">
+    <script type="module" crossorigin src="/assets/index-ZV8GdByQ.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BXj2I5uz.css">
   </head>
   <body>
-    <script>
-      function report(e) {
-        fetch('http://localhost:3098/', { method: 'POST', body: String(e) }).catch(console.log);
-      }
-      window.addEventListener('error', function(e) {
-        var str = 'ERROR: ' + (e.error ? (e.error.stack || e.error.message) : e.message);
-        report(str);
-        document.body.innerHTML += '<div style="position:fixed;top:0;left:0;right:0;background:red;color:white;z-index:9999;padding:20px;font-family:monospace;white-space:pre-wrap;">' + str + '</div>';
-        console.error("WINDOW ERROR:", e.error || e.message);
-      });
-      window.addEventListener('unhandledrejection', function(e) {
-        var str = 'PROMISE REJECTION: ' + (e.reason ? (e.reason.stack || e.reason.message || JSON.stringify(e.reason)) : 'Unknown');
-        report(str);
-        document.body.innerHTML += '<div style="position:fixed;top:0;left:0;right:0;background:darkred;color:white;z-index:9999;padding:20px;font-family:monospace;white-space:pre-wrap;">' + str + '</div>';
-        console.error("PROMISE REJECTION:", e.reason);
-      });
-    </script>
     <div id="root"></div>
   </body>
 </html>
